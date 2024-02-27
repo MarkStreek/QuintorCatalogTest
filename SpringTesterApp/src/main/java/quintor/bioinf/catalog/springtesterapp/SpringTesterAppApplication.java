@@ -5,7 +5,7 @@ import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@SpringBootConfiguration
+
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class SpringTesterAppApplication {
 
