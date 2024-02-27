@@ -12,4 +12,10 @@ public class UserTest {
         User user = new User("John");
         assert user.getName().equals("John");
     }
+
+    @Test
+    void getName2() {
+        User user = new User("Mar");
+        assert user.getName().equals("Mar");
+    }
 }
